@@ -14,4 +14,4 @@ To re-compile the project yourself:
 2. List all the files in the directory: `dir /s /B *.java > sources.txt`
 3. Compile: `javac -d . @sources.txt`
 4. Copy .fxml file into the newly created folder which contains the .class files
-5. Run using the command: `draw_shapes.Shapes`
+5. Run using the command: `java draw_shapes.Shapes`
